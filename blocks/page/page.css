@@ -1,0 +1,10 @@
+@import url('./__header/page__header.css');
+
+.page {
+  display: flex;
+  justify-content: center;
+  /*max-width: 1400px;*/
+  margin: 0 auto;
+
+  background-color: #2A2C2F;
+}
