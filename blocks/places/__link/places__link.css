@@ -1,0 +1,10 @@
+.places__link {
+  color: inherit;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.places__link:hover {
+  opacity: .8;
+  transition: .2s linear;
+}

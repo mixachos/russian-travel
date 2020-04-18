@@ -1,27 +1,28 @@
-.page__header {
+.page__footer {
   box-sizing: border-box;
 }
 
 @media (min-width: 1280px) {
-  .page__header {
-    padding: 28px 3.75% 56px;
+  .page__footer {
+    padding: 0 3.75% 24px;
   }
 }
 
 @media (min-width:1024px) and (max-width: 1279px)  {
-  .page__header {
-    padding: 28px 3.75% 48px;
+  .page__footer {
+    padding: 0 4.7% 24px;
   }
 }
 
 @media (min-width: 426px) and (max-width: 1023px) {
-  .page__header {
-    padding: 28px 3.125% 48px;
+  .page__footer {
+    padding: 0 3.125% 24px;
   }
 }
 
 @media (max-width: 425px) {
-  .page__header {
-    padding: 16px 5% 48px;
+  .page__footer {
+    padding: 0 0 24px 5%;
   }
 }
+

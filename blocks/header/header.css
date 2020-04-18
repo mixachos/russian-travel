@@ -1,11 +1,11 @@
 @import url('./__logo/header__logo.css');
 @import url('./__lang-list/header__lang-list.css');
 @import url('./__lang-list-item/header__lang-list-item.css');
+@import url('./__link/header__link.css');
+@import url('./__link/_active/header__link_active.css');
 
 
 .header {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 48px*2);
-  border: 1px solid red;
 }
