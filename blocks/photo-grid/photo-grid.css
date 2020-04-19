@@ -18,9 +18,21 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     width: 93.75%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 767px) {
+  .photo-grid {
+    width: 90%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 679px) {
+  .photo-grid {
+    width: 70%;
   }
 }
 

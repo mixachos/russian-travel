@@ -1,6 +1,7 @@
 .cover__title {
   font-weight: 900;
   text-align: center;
+  z-index: 2;
 }
 
 @media (min-width: 1280px) {
@@ -21,7 +22,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .cover__title {
     max-width: 72.9%;
     font-size: 72px;
@@ -30,7 +31,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .cover__title {
     max-width: 255px;
     font-size: 32px;
