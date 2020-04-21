@@ -9,9 +9,15 @@
 </head>
 
 <body class="root">
+
+  <!--Нужно ли указывать класс 'root', если у него нет никаких свойств?-->
+
   <div class="page">
     <header class="header page__header">
       <div class="header__logo"></div>
+
+      <!--TODO Лого в отдельный блок, не забыть про структуру папок-->
+
       <ul class="header__lang-list">
         <li class="header__lang-list-item">
           <a href="#" class="header__link header__link_active">Ru</a>
@@ -26,6 +32,11 @@
       <section class="lead page__lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+
+        <!--Надеюсь, теперь я правильно понял насчёт картинок: картинки могут тянуться при
+        увеличении ширины страницы, но в пределах от минимального размера в своей ширине страницы
+        до физически максимального размера 1:1, который равен максимальному размеру этой картинки во всём макете.-->
+
         <img src="./images/covers/polka.jpg" alt="Фото полка в поезде" class="lead__main-image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -46,31 +57,31 @@
 
         <ul class="intro__list">
           <li class="intro__item">
-            <span class="intro__item_accent">
+            <span class="intro__item intro__item_accent">
               Часовых поясов
             </span>
             11
           </li>
           <li class="intro__item">
-            <span class="intro__item_accent">
+            <span class="intro__item intro__item_accent">
               Объектов природного наследия ЮНЕСКО
             </span>
             12
           </li>
           <li class="intro__item">
-            <span class="intro__item_accent">
+            <span class="intro__item intro__item_accent">
               Объектов культурного наследия ЮНЕСКО
             </span>
             16
           </li>
           <li class="intro__item">
-            <span class="intro__item_accent">
+            <span class="intro__item intro__item_accent">
               Природных заповедников
             </span>
             105
           </li>
           <li class="intro__item">
-            <span class="intro__item_accent">
+            <span class="intro__item intro__item_accent">
               Аэропортов
             </span>
             241
@@ -131,11 +142,11 @@
             <article class="places__place">
               <h3 class="places__title">Куршская коса</h3>
               <div class="places__website">
-                <p class="places__url-heading">URL</p>
+                <p class="places__url-heading">url</p>
                 <a href="http://park-kosa.ru" class="places__link" target="_blank">park-kosa.ru</a>
               </div>
               <img src="./images/places/place-kosa.jpg" alt="Куршская коса" class="places__image">
-              <div class="places__column">
+              <div class="places__main-text">
                 <p class="places__paragraph">
                   Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
                   Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -155,12 +166,12 @@
             <article class="places__place">
               <h3 class="places__title">Кольский</h3>
               <div class="places__website">
-                <p class="places__url-heading">URL</p>
+                <p class="places__url-heading">url</p>
                 <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link"
                   target="_blank">National Geographic</a>
               </div>
               <img src="./images/places/place-kolsky.jpg" alt="Кольский" class="places__image">
-              <div class="places__column">
+              <div class="places__main-text">
                 <p class="places__paragraph">
                   Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
                   тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -180,12 +191,12 @@
             <article class="places__place">
               <h3 class="places__title">Алтай</h3>
               <div class="places__website">
-                <p class="places__url-heading">URL</p>
+                <p class="places__url-heading">url</p>
                 <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__link"
                   target="_blank">Facebook</a>
               </div>
               <img src="./images/places/place-altai.jpg" alt="Алтай" class="places__image">
-              <div class="places__column">
+              <div class="places__main-text">
                 <p class="places__paragraph">
                   Алтай — одно из красивейших мест в России.
                   В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки
@@ -206,13 +217,16 @@
 
           <li class="places__item">
             <article class="places__place">
+
+              <!--TODO Карточка в отдельный блок, пригодится.-->
+
               <h3 class="places__title">Зимний Байкал</h3>
               <div class="places__website">
-                <p class="places__url-heading">URL</p>
+                <p class="places__url-heading">url</p>
                 <a href="https://vk.com/baikalmile" class="places__link" target="_blank">https://vk.com/baikalmile</a>
               </div>
               <img src="./images/places/place-winter-baikal.jpg" alt="Зимний Байкал" class="places__image">
-              <div class="places__column">
+              <div class="places__main-text">
                 <p class="places__paragraph">
                   Всем известен Байкал как крупнейшее озеро в мире.
                   Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -231,11 +245,11 @@
             <article class="places__place">
               <h3 class="places__title">Карелия</h3>
               <div class="places__website">
-                <p class="places__url-heading">URL</p>
+                <p class="places__url-heading">url</p>
                 <a href="http://vodlozero.ru" class="places__link" target="_blank">http://vodlozero.ru/</a>
               </div>
               <img src="./images/places/place-karelia.jpg" alt="Карелия" class="places__image">
-              <div class="places__column">
+              <div class="places__main-text">
                 <p class="places__paragraph">
                   Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт
                   западнее
@@ -268,23 +282,25 @@
     </main>
 
     <footer class="footer page__footer">
-      <ul class="footer__links-list">
-        <li class="footer__links-list-item">
-          <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
-        </li>
-        <li class="footer__links-list-item">
-          <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
-        </li>
-        <li class="footer__links-list-item">
-          <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-        </li>
-        <li class="footer__links-list-item">
-          <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-        </li>
-        <li class="footer__links-list-item">
-          <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
-        </li>
-      </ul>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item">
+            <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
       <p class="footer__copyright">
         &copy; 2020. Михаил Шатов
       </p>

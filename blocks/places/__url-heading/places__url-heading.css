@@ -1,9 +1,9 @@
 .places__url-heading {
   font-size: 12px;
-  font-weight: 400;
   color: #AAAAAA;
   letter-spacing: .2em;
   margin: 0 0 12px 0;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1280px) {

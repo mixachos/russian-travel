@@ -2,3 +2,21 @@
   object-fit: cover;
   width: 100%;
 }
+
+@media (min-width: 1280px) {
+  .places__image {
+    min-height: 100%;
+  }
+}
+
+@media (min-width:1024px) and (max-width: 1279px)  {
+  .places__image {
+    min-height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places__image {
+    min-height: 100%;
+  }
+}

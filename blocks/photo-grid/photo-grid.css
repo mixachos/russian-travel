@@ -3,7 +3,9 @@
 @import url('./__image/photo-grid__image.css');
 
 .photo-grid {
+  display: flex;
   margin: 0 auto;
+  justify-content: center;
 }
 
 @media (min-width: 1280px) {
@@ -15,6 +17,7 @@
 @media (min-width:1024px) and (max-width: 1279px)  {
   .photo-grid {
     width: 90.625%;
+
   }
 }
 
@@ -24,19 +27,13 @@
   }
 }
 
-@media (min-width: 680px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 767px) {
   .photo-grid {
-    width: 90%;
+    width: 98%;
   }
 }
 
-@media (min-width: 426px) and (max-width: 679px) {
-  .photo-grid {
-    width: 70%;
-  }
-}
-
-@media (max-width: 425px) {
+@media (max-width: 639px) {
   .photo-grid {
     width: 90%;
   }

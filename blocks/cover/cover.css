@@ -5,7 +5,7 @@
 
 
 .cover {
-  padding-bottom: 62.5%;
+
   background-image: url('../../images/covers/cover-trains.jpg');
   background-size: cover;
   background-position: center;
@@ -13,26 +13,30 @@
   position: relative;
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1184px) {
   .cover {
-    width: 92.5%;
+    max-width: 1184px;
+    height: 740px;
   }
 }
 
-@media (min-width:1024px) and (max-width: 1279px)  {
+@media (min-width:1024px) and (max-width: 1183px)  {
   .cover {
     width: 100%;
+    padding-bottom: 62.5%;
   }
 }
 
 @media (min-width: 426px) and (max-width: 1023px) {
   .cover {
     width: 100%;
+    padding-bottom: 62.5%;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
     width: 100%;
+    padding-bottom: 62.5%;
   }
 }
