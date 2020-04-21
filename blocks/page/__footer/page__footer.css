@@ -1,10 +1,12 @@
 .page__footer {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 @media (min-width: 1280px) {
   .page__footer {
-    padding: 0 3.75% 24px;
+    padding: 0 48px 24px;
+    max-width: 1280px;
   }
 }
 

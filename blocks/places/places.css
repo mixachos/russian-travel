@@ -14,7 +14,7 @@
 
 @media (min-width: 1280px) {
   .places {
-    width: 76.875%;
+    max-width: 984px;
   }
 }
 
